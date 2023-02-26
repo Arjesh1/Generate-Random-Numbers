@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: radial-gradient(at bottom right, #eaeaea 0, #eaeaea 8px, rgba(234,234,234,0.2) 8px, rgba(234,234,234,0.2) 16px, rgba(234,234,234,0.75) 16px, rgba(234,234,234,0.75) 24px, rgba(234,234,234,0.25) 24px, rgba(234,234,234,0.25) 32px, rgba(234,234,234,0.3) 32px, rgba(234,234,234,0.3) 40px, rgba(234,234,234,0.75) 40px, rgba(234,234,234,0.75) 48px, rgba(234,234,234,0.2) 48px, rgba(234,234,234,0.2) 56px, transparent 56px, transparent 64px), radial-gradient(at top left, transparent 0, transparent 8px, rgba(234,234,234,0.2) 8px, rgba(234,234,234,0.2) 16px, rgba(234,234,234,0.75) 16px, rgba(234,234,234,0.75) 24px, rgba(234,234,234,0.3) 24px, rgba(234,234,234,0.3) 32px, rgba(234,234,234,0.25) 32px, rgba(234,234,234,0.25) 40px, rgba(234,234,234,0.75) 40px, rgba(234,234,234,0.75) 48px, rgba(234,234,234,0.2) 48px, rgba(234,234,234,0.2) 56px, #eaeaea 56px, #eaeaea 64px, transparent 64px, transparent 160px);
+    background-blend-mode: multiply;
+    background-size: 64px 64px, 64px 64px;
+    background-color: #47d3ff;
+font-size: 2rem;
+}
+
+.wrapper{
+    margin-top: 18rem;
+    margin-left: 40rem;
+}
+
+.text{
+    margin-left: -15rem;
+    margin-bottom: 3rem;
+}
+
+input{
+    width:10rem;
+    height: 5rem;
+    font-size: 3rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.submit{
+    width: 20.5rem;
+    background: #47d3ff;
+    margin-top: 1rem;
+}
+
+.submit:hover{
+    color: #47d3ff;
+    background: black;
+}
+
+.result{
+    background: white;
+    width:20.5rem;
+    margin-top: 1rem;
+    height: 5rem;
+    font-size: 3rem;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
